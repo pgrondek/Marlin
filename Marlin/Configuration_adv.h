@@ -1476,7 +1476,7 @@
     // Enable if Z homing is needed for proper recovery. 99.9% of the time this should be disabled!
     //#define POWER_LOSS_RECOVER_ZHOME
     #if ENABLED(POWER_LOSS_RECOVER_ZHOME)
-      //#define POWER_LOSS_ZHOME_POS { 0, 220 } // Safe XY position to home Z while avoiding objects on the bed
+      //#define POWER_LOSS_ZHOME_POS { 0, 210 } // Safe XY position to home Z while avoiding objects on the bed
     #endif
   #endif
 
