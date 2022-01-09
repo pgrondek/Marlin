@@ -52,4 +52,8 @@
   #define Y_CS_PIN 63
 #endif
 
+#ifndef E1_CS_PIN
+#define E1_CS_PIN 65
+#endif
+
 #include "pins_RAMPS.h"
